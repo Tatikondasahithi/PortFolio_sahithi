@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a43c5880fd.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1 class="headings" id="heading_name">Venky</h1> 
+              
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closmenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+           
+          
+             
+            <div class="header-text">
+                <p><span>Passionate</span> Software Developer</p>
+                <h1>Hi, I'm <span>Allaka Durga Venkatesh</span> <br>Engineering Graduate</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------------About------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/venky.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><i>
+                        As,I'm Currently pursuing UnderGradute in Electronics and Communication.Iam Enthusiastic about embarking on a career in the software development field.leveraging my Strong foundation in electronics and communication technology and my proficiency in programming languages such as  <q> <b>C & JAVA</b></q> .I am also well-versed in Web-Technologies including <q><b>HTML & CSS</b></q>,Possess a solid understanding of database management through sql.
+                       </i> </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onClick="opentab('internship')">Internship</p>
+                            <p class="tab-links" onClick="opentab('education')">Education</p>
+                        </div>
+                
+                 <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                   <li><span>TECHNICAL SKILLS</span><br>C,JAVA,HTML,CSS</li>
+                   <li><span>COMMUNICATION SKILLS</span><br>PROBLEM-SOLVING,TIME-MANAGEMENT,CONTINUOUS IMPROVEMENT MINDSET,FLEXIBILITY AND ADAPTIBILITY</li>
+                  <li><span>HOBBIES & INTERESTS</span><br>TRAVELLING,GOOGLING,PLAYING CRICKET,GARDENING</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="internship">
+                <ul>
+              <li><span>Two Months</span><br>Techwing-Java Full Stack</li>
+               
+           </ul>
+         </div>
+         <div class="tab-contents" id="education">
+            <ul>
+          <li><span>2021-2025</span><br>Affiliated JNTU Kakinada</li>Godavari Institute Of Engineering And Technology-(A)</li>
+          <li><span>2019-2021</span><br>Board Of Intermediate Education</li>Matrusri Junior College</li>
+         <li><span>2018-2019</span><br>Board Of Secondary Education</li>ZPHighSchool</li>
+       </ul>
+     </div>
+          </div>
+       </div>
+    </div>
+
+  </div>
+  <!-- -----------------projects-------- -->
+   <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2><b>Vision-Based Anti-Collision System for Aytonomous Vehicles in Toxic Gas Environment</b></h2>
+                <p>The Research introduces a novel anti-collision system for autonomous vehicles in hazardous mining environments.By utilizing advances HD cameras ,the system overcomes challenges posed by poor lighting ,dusta nd toxic gases.this technology enables relaible lane detection,traffic sign recognition  and object avoidance ,signifacantly enhancing vehicle safety.The integrated approach ensures robust performance ,providing a crucial safeguard against accidents and improving overall operationalsafety in mines. </p>
+
+                <a href ="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2><b>Customer Segmentation and Market Based Analysis</b></h2>
+                <p>Developed Predictive models in forecast customer behaviour and market trends.Customer Segmentation involves dividing a market into distinct groups based on shared characteristics.By understanding these segments ,businessess can tailor marketing strategeies for optional impact.This Process analyzes customer data,identifies patterns and creates actionable insights.Through effective segmentation ,organization can develop targeted marketing campaigns ,enhance customer satisfaction and drive revenue growth</p>
+                <a href ="#">Learn more</a>
+            </div>
+       </div>
+    </div>
+ </div>
+ 
+  <!-- ---------------------Contact--------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i></i>durgavenkatesh1985@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9347552487</p>
+                
+                <div id="social-icons">
+                     <a href="https://www.linkedin.com/in/allaka-durga-venkatesh-9248b6276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <p><i class="fa-brands fa-linkedin"></i></a> Linkedln</p> 
+                       
+                 </div>
+                   
+                
+               
+                <a href="Images/21551A04A1_ALLAKA_DURGA_VENKATESH (1) (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+        
+
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>copyright @ Venkatesh Allaka <i class="fa-solid fa-heart"></i></p>
+    </div>
+   </div>
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents"); 
+      
+      function opentab(tabname){
+         for(tablink of tablinks){
+             tablink.classList.remove("active-link");
+         }
+          for(tabcontent of tabcontents){
+          
+             tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+    
+    </script>
+   
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closmenu() { 
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
